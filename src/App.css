@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+container{
+  background: aqua;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.addUserForm{
+  background-color: aqua;
+  height:auto;
+  margin-top: 5px;
+  padding: 60px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mb-1{
+  width: 200px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.mb-2{
+  width: 200px;
+  margin-left: 245px;
+  margin-top: -70px;
+}
+.mb-3{
+  width: 450px;
+  
+}
+/* User List */
+.UserList{
+  background: rgba(79, 83, 83, 0.315);
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  width: auto;
+  margin-top: 10px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* User */
+.user{
+  background: coral;
+  text-align: center;
+  position: absolute;
+  display: flex;
 }
