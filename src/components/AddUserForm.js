@@ -52,6 +52,7 @@ class AddUserForm extends Component {
             name="firstName"
             onChange={this.handleChange}
             value={this.state.firstName}
+            required
           />
         </Form.Group>
 
@@ -60,14 +61,19 @@ class AddUserForm extends Component {
           <Form.Control type="text" placeholder="Last Name" 
           name="lastName"
           onChange={this.handleChange}
-          value={this.state.lastName}/>
+          value={this.state.lastName}
+          required
+          />
+          
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPhoneNumber">
           <Form.Label>Phone Number</Form.Label>
           <Form.Control type="number" placeholder="Phone Number" name="phoneNumber"
             onChange={this.handleChange}
-            value ={this.state.phoneNumber} />
+            value ={this.state.phoneNumber}  
+            required
+            />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicHomeAddress">
@@ -75,7 +81,8 @@ class AddUserForm extends Component {
           <Form.Control type="text" placeholder="Home Address" 
           name="homeAddress"
           onChange={this.handleChange}
-          value={this.state.homeAddress}/>
+          value={this.state.homeAddress} 
+          required/>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicJobRole">
@@ -83,14 +90,16 @@ class AddUserForm extends Component {
           <Form.Control type="text" placeholder="Job Role" 
           name="jobRole"
           onChange={this.handleChange}
-          value={this.state.jobRole}/>
+          value={this.state.jobRole} 
+          required/>
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicSalary">
           <Form.Label>Salary</Form.Label>
           <Form.Control type="number" placeholder="Salary" 
           name="salary"
           onChange={this.handleChange}
-          value={this.state.salary}/>
+          value={this.state.salary}
+           required/>
         </Form.Group>
 
         <Button variant="primary" size ="lg" type="submit" onSubmit = {this.handleSubmit} >
