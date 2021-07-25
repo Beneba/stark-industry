@@ -49,7 +49,7 @@ class App extends Component {
   };
   render() {
     return (
-      <Container fluid >
+      <Container fluid responsive>
         <Row>
           <Card style={{ marginLeft: "350px", width: '40rem'  }}>
             <Col 

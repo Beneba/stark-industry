@@ -4,7 +4,7 @@ import User from './User';
 
 const UserList = (props) => {
     return(
-        <Container>
+        <Container resposive>
             <Row>
             {
                 props.usersData.map((user, id)=>{

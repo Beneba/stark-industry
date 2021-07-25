@@ -41,7 +41,7 @@ class AddUserForm extends Component {
     return (
       <>
     
-     <Row className = "g-2">
+     <Row className = "g-2" responsive >
        <h3 > Stark Industry Employee Form</h3>
      <Form onSubmit ={this.handleSubmit} >
         <Form.Group className="mb-1" controlId="formBasicFirstName">
