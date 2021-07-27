@@ -36,6 +36,7 @@ class EditUser extends Component {
       salary: "",
       id: ""
     })
+    this.props.closeModal()
   }
   render() {
     return (

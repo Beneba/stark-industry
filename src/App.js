@@ -55,7 +55,7 @@ class App extends Component {
       users:safeUsers
     })
   }
-  edtUser = (id,updatedUser) =>{
+  editUser = (id,updatedUser) =>{
     this.setState({
      users: this.state.users.map(user => user.id === id ? updatedUser : user)
     })
