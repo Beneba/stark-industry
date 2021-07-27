@@ -11,35 +11,34 @@ class App extends Component {
     super(props);
     this.state = {
       users: [
-        {
-          firstName: "Olalekan",
-          lastName: "Hussein",
-          phoneNumber: "233245059484",
-          homeAddress: "Accra",
-          jobRole: "IT Support",
-          salary: "Ghc 1000.00",
-          id: "124tvf",
-        },
-        {
-          firstName: "Bless",
-          lastName: "Afetsi",
-          phoneNumber: "0249175700",
-          homeAddress: "Accra",
-          jobRole: "Student",
-          salary: "1000.00",
-          id: "fbth234t",
-        }, 
+        // {
+        //   firstName: "Olalekan",
+        //   lastName: "Hussein",
+        //   phoneNumber: "233245059484",
+        //   homeAddress: "Accra",
+        //   jobRole: "IT Support",
+        //   salary: "Ghc 1000.00",
+        //   id: "124tvf",
+        // },
+        // {
+        //   firstName: "Bless",
+        //   lastName: "Afetsi",
+        //   phoneNumber: "0249175700",
+        //   homeAddress: "Accra",
+        //   jobRole: "Student",
+        //   salary: "1000.00",
+        //   id: "fbth234t",
+        // }, 
       
-        {
-          firstName: "Bright",
-          lastName: "Mansah",
-          phoneNumber: "0249175700",
-          homeAddress: "Accra",
-          jobRole: "Student",
-          salary: "1000.00",
-          id: "farguh5",
-        },
-      
+        // {
+        //   firstName: "Bright",
+        //   lastName: "Mansah",
+        //   phoneNumber: "0249175700",
+        //   homeAddress: "Accra",
+        //   jobRole: "Student",
+        //   salary: "1000.00",
+        //   id: "farguh5",
+        // },
       ],
     };
   }
